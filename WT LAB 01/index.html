@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="pill" href="#home"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+            <li><a data-toggle="tab" href="#sdp">SDP</a></li>
+            <li><a data-toggle="tab" href="#edi">EDI</a></li>
+            <li><a data-toggle="tab" href="#dt">DT</a></li>
+            <li><a data-toggle="tab" href="#course">Course Projects</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <h3>Home</h3>
+                <p>Insert Home content here.</p>
+            </div>
+            <div id="sdp" class="tab-pane fade">
+                <h3>SDP</h3>
+                <p>Insert SDP content here.</p>
+            </div>
+            <div id="edi" class="tab-pane fade">
+                <h3>EDI</h3>
+                <p>Insert EDI content here.</p>
+            </div>
+            <div id="dt" class="tab-pane fade">
+                <h3>DT</h3>
+                <p>Insert DT content here.</p>
+            </div>
+                <div id="course" class="tab-pane fade">
+                    <h3>Course Projects</h3>
+                    <p>Insert course projects content here.</p>
+                </div>
+            </div>
+        </div>
+</body>
+<script>
+    $(document).ready(function(){
+        $(".nav-tabs a").click(function(){
+            $(this).tab('show');
+        });
+    });
+</script>
+</html>
