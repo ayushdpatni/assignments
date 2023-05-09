@@ -13,3 +13,7 @@ Design and develop a responsive website to calculate Electricity bill using spri
 ## Lab PHP-SQL CRUD
 Path: http://localhost/codes/php_mysqli/
 Path: C:\xampp\htdocs\codes\php_mysqli
+
+Visit below git repo for more assignments
+https://github.com/kilua2121?tab=repositories
+https://github.com/bhavinpatil/WTLABS
